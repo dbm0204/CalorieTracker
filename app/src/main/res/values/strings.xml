@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodScanner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_meal_add">Add Meal</string>
+    <string name="action_login">Log In</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_logout_confirm">Are you sure you want to logout?</string>
+    <string name="logout_button">LOG OUT</string>
+    <string name="action_logout_unsynced_warning_title">You have un-synced meals</string>
+    <string name="action_logout_unsynced_warning_subtitle">Any meals that have not been synced with the server will be lost.</string>
+    <string name="delete_button">DELETE</string>
+
+    <string name="login_food_scanner">Login with FoodScanner account</string>
+    <string name="login_google_plus">Login with Google+</string>
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="login">Login</string>
+
+    <string name="Email_prompt">Email</string>
+    <string name="password_prompt">Password</string>
+    <string name="new_account">Create account</string>
+    <string name="password_recovery">Forgot your password?</string>
+    <string name="title_activity_meal_calendar">Meal Calendar</string>
+    <string name="title_activity_meal_details">Meal Details</string>
+    <string name="title_activity_food_scanner">Food Scanner</string>
+    <string name="title_activity_painting">Painting</string>
+
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="pixelButton">Done</string>
+    <string name="rectangleButton">Done</string>
+    <string name="undoButton">Undo</string>
+    <string name="title_activity_food_adder">Add Food</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_settings_set_times">Set Meal Times</string>
+    <string name="title_activity_food_density">Density Information</string>
+
+    <string name="settings_24_hour">Use 24-hour format</string>
+    <string name="settings_meal_time">Set meal times</string>
+    <string name="settings_meal_time_automatic">Default</string>
+    <string name="settings_meal_time_manual">Manual</string>
+    <string name="settings_time_switch_title">Set meal times manually</string>
+    <string name="settings_time_switch_subtitle">When disabled, the app will use the default meal times rather than the custom times.</string>
+    <string name="settings_set_start_time">Set start time</string>
+    <string name="settings_set_end_time">Set end time</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="settings_time_overlap_title">Conflicting meal times</string>
+    <string name="settings_time_overlap_subtitle">Some meals have overlapping time intervals. Going back now will reset your changes.</string>
+    <string name="reset_changes">RESET CHANGES</string>
+
+    <string name="action_tutorial">Help</string>
+    <string name="tutorial_back">BACK</string>
+    <string name="tutorial_next">NEXT</string>
+
+    <string name="network_error">Error: Network connection failed.</string>
+    <string name="generic_error">Error: Please try again.</string>
+
+    <string name="nutritionix_api_id">4d784f94</string>
+    <string name="nutritionix_api_key">a3e15aa81cdbe791ad05625dcc3d417a</string>
+
+    <string name="top_label">Top</string>
+    <string name="side_label">Side</string>
+
+    <string-array name="meal_list">
+        <item>Breakfast</item>
+        <item>Brunch</item>
+        <item>Lunch</item>
+        <item>Snack</item>
+        <item>Dinner</item>
+        <item>Dessert</item>
+    </string-array>
+    <string name="title_activity_camera">CameraActivity</string>
+
+    <string name="accessibility_meal_time_overlap">Overlapping meal times</string>
+
+
+    <string name="tutorial_calendar_calendar_button_title">Show Calendar</string>
+    <string name="tutorial_calendar_calendar_button_description">Pick a day from the calendar to view your meals from that day.</string>
+    <string name="tutorial_calendar_calories_button_title">View Nutrition Stats</string>
+    <string name="tutorial_calendar_calories_button_description">See your nutrition information over the last 30 days, 7 days, or just today.</string>
+    <string name="tutorial_meal_details_type_title">Meal Type</string>
+    <string name="tutorial_meal_details_type">Here you can choose which meal you are eating. The default choice is based on the time of day. (You can change the default meal times in the settings page.)</string>
+    <string name="tutorial_meal_details_title">Meal Details</string>
+    <string name="tutorial_meal_details_list">This list shows all the kinds of food that you have added to this meal. A warning icon next to the food\'s name means that it still needs to be scanned. Tapping an item will bring up more information and some options.</string>
+    <string name="tutorial_meal_details_scan_title">Scan</string>
+    <string name="tutorial_meal_details_scan">Choosing Scan will begin the process of photographing your food to get the number of servings you are eating.</string>
+    <string name="tutorial_meal_details_servings_title">Servings</string>
+    <string name="tutorial_meal_details_servings">Not all food needs to be scanned. Most foods that come in a container ready to eat will simply need to have the serving count entered in.</string>
+    <string name="tutorial_meal_details_replace_title">Replace</string>
+    <string name="tutorial_meal_details_replace">If you\'ve already scanned some food and realize you didn\'t pick the right food name, you can press this to do another search and replace it. This way you don\'t need to re-scan your food.</string>
+    <string name="tutorial_meal_details_total_title">Total Meal Nutrition</string>
+    <string name="tutorial_meal_details_total">After you have entered in all of the food you ate for this meal, click here to see a breakdown of the total nutritional value of this meal.</string>
+    <string name="tutorial_camera_title">Scanning Your Food</string>
+    <string name="tutorial_camera_overview">To scan each piece of food you need to take two pictures in portrait view, one from the top and one from the front. Try to take the pictures as close to directly above or the side as you can.</string>
+    <string name="tutorial_camera_card">For each photo, place some type of card horizontally next to your food in the picture. This card should be the same size as a standard banking card (eg. credit card, driver\'s license, etc.)</string>
+    <string name="tutorial_camera_closeup">Take the photo as close to the food and card as possible to get the most accurate estimate.</string>
+    <string name="tutorial_painting_card_title">Marking Card Location</string>
+    <string name="tutorial_painting_card">Drag and resize the orange rectangle to outline the card you put next to your food.</string>
+    <string name="tutorial_painting_title">Marking Food Location</string>
+    <string name="tutorial_painting_food">Now draw a \"+\" across your food. Draw the lines so that they intersect in a right angle over the center of mass.</string>
+    <string name="tutorial_painting_second_picture">For the side picture, draw a single line vertically across the center of your food.</string>
+
+</resources>

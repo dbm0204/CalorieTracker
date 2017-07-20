@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/Primary">
+
+    <LinearLayout
+        android:id="@+id/login_button_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp">
+
+
+        <Button
+            android:id="@+id/login_google_plus_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:theme="@style/Button.Primary.Dark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/White"
+            android:text="@string/login_google_plus"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/progress_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:id="@+id/container_logo"
+        android:layout_above="@+id/login_button_layout"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:id="@+id/imageView_logo"
+            android:scaleType="fitCenter"
+            android:minWidth="60sp"
+            android:minHeight="60sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Food Scanner"
+            android:id="@+id/title"
+            android:textSize="35sp"
+            android:textColor="@color/White"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
